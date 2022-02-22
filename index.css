@@ -1,6 +1,6 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
-* {
-  color:#3C373B;
+body {
+  color: #3C373B;
 }
 
 h1 {
@@ -61,17 +61,17 @@ img{
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-  background-color:#F87B99;
+  background:#F87B99;
 }
 
 .container header nav a:hover {
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-background-color:white;
+background:white;
 color:pink;
 }
 
-/*======= Create a selector for the about section to have the following styles:
- 
+//======= Create a selector for the about section to have the following styles:
+ .about{
 margin-top: 20px;
 
 
@@ -84,7 +84,7 @@ margin-top: 20px;
   padding: 0;
   margin: 0 0 10px 0;
 }
-
+}
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:
    line-height: 2;
 */
