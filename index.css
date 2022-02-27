@@ -73,7 +73,7 @@ color:pink;
 //======= Create a selector for the about section to have the following styles:
  .about{
 margin-top: 20px;
-
+ }
 
 .contact-section {
   border-top: 1px dashed black;
@@ -85,9 +85,10 @@ margin-top: 20px;
   margin: 0 0 10px 0;
 }
 }
-/*======= Create a selector for the address tag in the contact-section class to have the following styles:
-   line-height: 2;
-*/
+//======= Create a selector for the address tag in the contact-section class to have the following styles:
+  address{
+  line-height: 2;
+  }
 
 footer {
   width: 100%;
